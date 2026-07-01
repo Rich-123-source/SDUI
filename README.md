@@ -60,8 +60,8 @@ Le projet est configuré pour se connecter à une base de données PostgreSQL.
     spring:
       datasource:
         url: jdbc:postgresql://localhost:5432/sdui       # Modifiez si nécessaire
-        username: postgres                                # Modifiez votre nom d'utilisateur
-        password: abalakata                               # Modifiez votre mot de passe
+        username: root                                # Modifiez votre nom d'utilisateur
+        password: root                               # Modifiez votre mot de passe
     ```
 4.  La ligne `ddl-auto: update` créera automatiquement les tables au premier démarrage.
 
